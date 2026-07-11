@@ -83,3 +83,166 @@
 .register-btn:hover {
   background-color: #1e40c4;
 }
+.pricing {
+  text-align: center;
+  padding: 80px 40px;
+}
+
+.pricing-title {
+  font-size: 42px;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+.pricing-subtitle {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 48px;
+}
+
+/* Cards container */
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Base card */
+.card {
+  flex: 1;
+  max-width: 320px;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 32px 28px;
+  text-align: left;
+}
+
+.card-gray {
+  background-color: #f9fafb;
+}
+
+/* Highlighted (Pro) card */
+.card-highlight {
+  background-color: #0f172a;
+  border: none;
+  padding: 40px 28px;
+  transform: scale(1.03);
+}
+
+/* Plan label */
+.plan-label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #6b7280;
+}
+
+.plan-label-light {
+  color: #93c5fd;
+}
+
+/* Price */
+.price {
+  font-size: 40px;
+  font-weight: 800;
+  color: #0f172a;
+  margin-top: 8px;
+}
+
+.price-light {
+  color: #ffffff;
+}
+
+.price-note {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.price-note-light {
+  color: #9ca3af;
+}
+
+/* Divider */
+hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin-bottom: 20px;
+}
+
+.hr-dark {
+  border-top: 1px solid #1f2937;
+}
+
+/* Feature list */
+.features {
+  list-style: none;
+  margin-bottom: 28px;
+}
+
+.features li {
+  position: relative;
+  padding-left: 18px;
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #374151;
+}
+
+.features li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #2563eb;
+}
+
+.features-light li {
+  color: #d1d5db;
+}
+
+.features-light li::before {
+  color: #60a5fa;
+}
+
+/* Buttons */
+.btn {
+  width: 100%;
+  padding: 12px 0;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-outline {
+  background-color: #ffffff;
+  color: #2563eb;
+  border: 1px solid #2563eb;
+}
+
+.btn-outline:hover {
+  background-color: #eff6ff;
+}
+
+.btn-solid {
+  background-color: #2952e3;
+  color: #ffffff;
+  border: none;
+}
+
+.btn-solid:hover {
+  background-color: #1e40c4;
+}
+
+.card-gray .btn-outline {
+  color: #0f172a;
+  border: 1px solid #0f172a;
+}
+
+.card-gray .btn-outline:hover {
+  background-color: #f3f4f6;
+}
