@@ -83,7 +83,7 @@
 .hero {
   position: relative;
   min-height: 665px;
-  background-image: url("/B14-A01-DevConf-2026/assets/banner.jpg");
+  background-image: url("./B14-A01-DevConf-2026/assets/banner.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
